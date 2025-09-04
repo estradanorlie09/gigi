@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luzvie Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- 🌐 NAVBAR -->
+  <nav class="w-full bg-gray-800 shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <!-- Logo Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+        </svg>
+        <span class="text-xl font-bold text-white">Luzvie</span>
+      </div>
+      <ul class="hidden md:flex space-x-8">
+        <li><a href="#" class="text-white hover:text-red-400">Home</a></li>
+        <li><a href="#" class="text-white hover:text-red-400">Projects</a></li>
+        <li><a href="#" class="text-white hover:text-red-400">About</a></li>
+        <li><a href="#" class="text-white hover:text-red-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ✨ HERO SECTION -->
+  <section class="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-gray-100">
+    <!-- Left Content -->
+    <div class="md:w-1/2 text-center md:text-left">
+      <p class="text-gray-600 text-sm uppercase tracking-wide">-- Hello</p>
+      <h1 class="text-4xl md:text-5xl font-bold mt-3 leading-tight">
+        I'm <span class="text-red-500">Gizelle Santiago</span>
+      </h1>
+      <p class="mt-6 text-lg text-gray-700">
+        I'm a passionate developer/designer with a love for building beautiful, functional, and user-friendly digital experiences.
+      </p>
+      <a href="#contact" class="mt-8 inline-block bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md transition">
+        Contact Me
+      </a>
+    </div>
+
+    <!-- Right Image -->
+    <div class="md:w-1/2 mb-10 md:mb-0 flex justify-center">
+      <img src="https://media.discordapp.net/attachments/1413200680063074548/1413200810346680450/IMG_20250812_233121_669.jpg?ex=68bb1151&is=68b9bfd1&hm=4c986c9296ea55d16ed84e5ecadf8672a24662f32dc2f0c59d6f22316f4e4da5&=&format=webp&width=655&height=873" alt="Profile"
+        class="w-72 h-72 object-cover rounded-full shadow-lg border-4 border-red-500" />
+    </div>
+  </section>
+
+  <!-- 📞 Contact Placeholder -->
+  <footer id="contact" class="bg-gray-800 text-white py-8 text-center">
+    <p class="text-sm">© 2025 Luzvie Ann Santiago. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
